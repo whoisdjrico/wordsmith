@@ -47,23 +47,14 @@ const vocabList = [
 function replaceWords(element) {
     element.contents().each(function() {
         if (this.nodeType === 3) {
-            // let newText = $(this).text();
-            // if (newText.indexOf('http') !== -1) {
-            //     console.log(newText)
-            // }
             for (var i = 0; vocabList.length; i++) {
                 const item = vocabList[i];
                 const newText = $(this).text().replace(item[0], item[1]);
                 this.nodeValue = newText.replace(item[0], item[1]);
             }
-            // this.nodeValue = newText;
         }
 
         if (this.nodeType === 1) {
-            // let newText = $(this).html()
-            // if (newText.indexOf('http') !== -1) {
-            //     console.log(newText)
-            // }
             for (var i = 0; i < vocabList.length; i++) {
                 const item = vocabList[i];
                 const newText = $(this).html().replace(item[0], item[1])
@@ -84,4 +75,4 @@ function runScript() {
 };
 
 runScript();
-setInterval(runScript, 10000)
+setInterval(runScript, 10000);
