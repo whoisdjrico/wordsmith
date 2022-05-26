@@ -1,0 +1,16 @@
+{
+    "name": "Words Matter",
+    "description": "Change the words in your news articles so that you can feel them.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "content_scripts": [
+    {
+        "matches": ["https://*/*"],
+        "js": ["jquery-3.6.0.min.js", "content-script.js"]
+    }
+    ],
+    "permissions": ["storage"]
+  }
