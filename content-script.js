@@ -13,12 +13,12 @@ const vocabList = [
     [/shooter/g, 'murderer'],
     [/mass shootings/g, 'completely preventable shootings of more than 4 people with a murder device'],
     [/mass shooting/g, 'completely preventable shooting of more than 4 people with a murder device'],
-    [/elementary school shooting/g, 'elementary school ritual child sacrifice'],
-    [/Elementary School Shooting/g, 'Elementary School Ritual Child Sacrifice'],
-    [/high school shooting/g, 'high school ritual child sacrifice'],
-    [/High School Shooting/g, 'High School Ritual Child Sacrifice'],
-    [/school shooting/g, 'ritual child sacrifice'],
-    [/School Shooting/g, 'Ritual child Sacrifice'],
+    [/elementary school shooting/g, 'elementary school GOP Freedom Ritual'],
+    [/Elementary School Shooting/g, 'Elementary School GOP Freedom Ritual'],
+    [/high school shooting/g, 'high school GOP Freedom Ritual'],
+    [/High School Shooting/g, 'High School GOP Freedom Ritual'],
+    [/school shooting/g, 'GOP Freedom Ritual'],
+    [/School Shooting/g, 'GOP Freedom Ritual'],
     [/firearm/g, 'murder device'],
     [/right to bear arms/g, 'right to kill children'],
     [/Second Amendment rights/g, 'Child-Killing rights'],
@@ -40,8 +40,8 @@ const vocabList = [
     [/Rifle/g, 'Two-Handed Murder Device'],
     [/red flag/g, `make-sure-they-won't-kill-anybody`],
     [/Red Flag/g, `Make-Sure-They-Won't-Kill-Anybody`],
-    [/Mass killing/g, `Ritual Human Sacrifice`],
-    [/mass killing/g, `ritual human sacrifice`]
+    [/Mass killing/g, `Completely preventable shooting of more than 4 people with a murder device`],
+    [/mass killing/g, `completely preventable shooting of more than 4 people with a murder device`]
 ];
 
 function replaceWords(element) {
